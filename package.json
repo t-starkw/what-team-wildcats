@@ -1,0 +1,29 @@
+{
+  "name": "what-team-wildcats",
+  "version": "1.0.0",
+  "description": "Work team management portal",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1jest --verbose test/*",
+    "start": "node index.js",
+    "reset": "node reset.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-starkw/what-team-wildcats.git"
+  },
+  "author": "Tessa Starkweather",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-starkw/what-team-wildcats/issues"
+  },
+  "homepage": "https://github.com/t-starkw/what-team-wildcats#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "jest": "^29.3.1"
+  }
+}
