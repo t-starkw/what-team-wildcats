@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1jest --verbose test/*",
+    "test": "jest --verbose test/*",
     "start": "node index.js",
     "reset": "node reset.js"
   },
