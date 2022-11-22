@@ -148,7 +148,7 @@ function appStart() {
             name: 'engGithub',
             message: "What is the team engineer's GitHub?",
             validate: (answer) => {
-              const pass = answer.match(/^[a-zA-Z0-9]+$/); 
+              const pass = answer.match(/^[a-z\d](?:[a-z\d]|-(?=[a-z\d])){0,38}$/i); 
             //   find github username regex
               if (pass) {
                 return true;
