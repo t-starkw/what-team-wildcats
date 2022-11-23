@@ -4,7 +4,10 @@
   ## Description
   >This JavaScript command-line application aims to generate a personalized team profile page based on user input. Using the inquirer Node.js module, a user is prompted for information about their team which is subsequently used to dynamically generate an HTML webpage.
 
-  <!-- ![](./assets/readme-gen-ss.png) -->
+  ![](./assets/what-team-wildcats.png) <br>
+
+ 
+  >View the `sample.html` output [here](./assets/sample.html)
 
   ## Table of Contents
   * [Installation](#installation)
