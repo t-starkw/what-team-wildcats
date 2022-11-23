@@ -206,7 +206,7 @@ function appStart() {
             name: 'intSchool',
             message: "What is the team intern's school name?",
             validate: (answer) => {
-              const pass = answer.match(/^[a-zA-Z0-9]+$/); 
+              const pass = answer.match(/^[A-Za-z\s]*$/); 
             //   find github username regex
               if (pass) {
                 return true;
