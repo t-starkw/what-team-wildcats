@@ -46,11 +46,6 @@ Need extra help? Watch this short [Demo Video](https://drive.google.com/file/d/1
 >Jest was used to ensure constructor and method functionality. You can view these tests in the `__tests__` directory.
 >To perform further tests or view the status of current ones, run the command `npm test` in the terminal.
 
-
-## Deployed Application
-You can view the live application
-[here](https://graphic-ql.herokuapp.com/)
-
 ## Meta
 
 Tessa Starkweather – [LinkedIn](https://www.linkedin.com/in/tessa-starkweather-b61941200/) – tess.starkweather@gmail.com
